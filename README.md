@@ -94,7 +94,7 @@ ones.
 
 * `rotations`: These are generated damage outputs from the actual rotations and are the base data for the visualizations
   here.
-    * These are included specifically to help validation of this work over time.
+    * These are included specifically to help validate this work over time.
     * This is also where you will notice the simulated probabilities of random events for MNK/BRD/DNC.
 * `comp_dps`: This tracks simulated percentiles for all the comps in terms of DPS @ `12:27.500`
     * By percentiles, it's the statistics version: `x%` means "`x%` of data is less than or equal to this value."
@@ -114,8 +114,7 @@ ones.
   for all of these comps in `csv` and `html` formats.
     * `https://htmlpreview.github.io/?` can be used to view `html` files without any other tools by appending the full
       url.
-    *
-    Example: [https://htmlpreview.github.io/?https://github.com/apollo-van-waddleburg/patch-75-sim-results/blob/main/outputs/CasterAstBuffCompCompare/comp_dps_over_time/comp_dps_over_time.html](https://htmlpreview.github.io/?https://github.com/apollo-van-waddleburg/patch-75-sim-results/blob/main/outputs/CasterAstBuffCompCompare/comp_dps_over_time/comp_dps_over_time.html)
+    * Example: [https://htmlpreview.github.io/?https://github.com/apollo-van-waddleburg/patch-75-sim-results/blob/main/outputs/CasterAstBuffCompCompare/comp_dps_over_time/comp_dps_over_time.html](https://htmlpreview.github.io/?https://github.com/apollo-van-waddleburg/patch-75-sim-results/blob/main/outputs/CasterAstBuffCompCompare/comp_dps_over_time/comp_dps_over_time.html)
 
 ## Outcomes
 
@@ -149,28 +148,28 @@ these jobs a niche: resource pooling and multi-target cleave.
 Top speedkill logs this tier utilized both: M9S was a fight defined by how teams navigated the tower add phase. 
 The top 2 times took a "non-meta" job to solve the adds phase with on-demand cleave.
 * [6:58](https://www.fflogs.com/reports/AqHm26khrWJRCvzx?fight=1&type=damage-done) w/ RDM ([VOD](https://www.fflogs.com/video/view/73/fight/147666431))
-* [7:05](https://www.fflogs.com/reports/6pTWDkfYgPKQ4tBq?fight=20&type=damage-done) w/ RPR ([VODS](https://www.fflogs.com/video/view/73/fight/147342228))
+* [7:05](https://www.fflogs.com/reports/6pTWDkfYgPKQ4tBq?fight=20&type=damage-done) w/ RPR ([VOD](https://www.fflogs.com/video/view/73/fight/147342228))
 
 The idea here is simple: both RDM and RPR supply on-demand burst and cleave, which can be very helpful when every 
 other job might be lacking free cleave from their CDs. This lets everyone else stay focused on the boss and minimizes
 boss damage losses. 
 
-M10S saw the top team bring out a double caster comp, replacing a melee with RDM. RDM is shocking powerful with cleave, 
+M10S saw the top team bring out a double caster comp, replacing a melee with RDM. RDM is shockingly powerful with cleave, 
 enough so that it was worth dropping a whole other melee for. 
-* [7:07](https://www.fflogs.com/reports/28kP43gqW9RaLCpT?fight=54&type=damage-done) w/ RDM/PCT Double caster ([VODs](https://www.fflogs.com/video/view/73/fight/147613054))
+* [7:07](https://www.fflogs.com/reports/28kP43gqW9RaLCpT?fight=54&type=damage-done) w/ RDM/PCT Double caster ([VOD](https://www.fflogs.com/video/view/73/fight/147613054))
 
 Regarding the other melees, I can also provide some context here since I was working with parryprog for their theorycraft: 
 they checked the other melees and found them all to be roughly comparable (NIN/MNK/DRG/RPR) in net outcomes for their goal. 
 So, NIN was taken due to time constraints since it was a comfort pick. 
 
-M12SP2 had a korean team do some work with carryover RPR, using the P1 fight to bring a full gauge. This is a known 
+M12SP2 had a Korean team do some work with carryover RPR, using the P1 fight to bring a full gauge. This is a known 
 strength of RPR, so it's nice to see a team invest the effort in executing runs like this.
 * [7:40](https://www.fflogs.com/reports/KjDrwdWLPGxHCv1q?fight=2&type=damage-done) w/ Carryover RPR ([VOD](https://www.fflogs.com/video/view/73/fight/147655352))
 
-Moving onto 7.5, we see some well reasoned buffs to some underperformers (idk why RPR was buffed and not MCH though). 
+Moving on to 7.5, we see some well reasoned buffs to some underperformers (idk why RPR was buffed and not MCH though). 
 However, the new ultimate can always pose a challenge: RPR/RDM can struggle when it can't generate gauge, and ultimates
 always mix in downtimes that allow other jobs like NIN to wait out their CDs while losing less relative to more 
-gauge dependent jobs. PCT is the most extreme example of a job that can get a lot of work down during downtime (via painting), 
+gauge dependent jobs. PCT is the most extreme example of a job that can get a lot of work done during downtime (via painting), 
 so our new standouts have the odds stacked against them. 
 
 Gauge-dependence can be an asset though: if your group can find ways to allow these jobs to pool gauge, you can find a 
@@ -226,7 +225,7 @@ new perspective on job performance that is not feasible to see via submitted log
 * [xivgear.app](https://xivgear.app/) for their gearset support and damage validation.
 * [Caro](https://www.youtube.com/@CaroKannffxiv) and [Parryprog](https://www.fflogs.com/guild/id/135994/) for writing the vast majority of the rotations and
   reviewing work.
-    * Checkout their speedkills in 7.4! They did a great job.
+    * Check out their speedkills in 7.4! They did a great job.
 * **Sleepocat** for being the original testers for many of these simulations and visualizations.
     * For context, I played as a Tank for the team and managed a lot of the simulations, tools, and planning around
       their runs.
