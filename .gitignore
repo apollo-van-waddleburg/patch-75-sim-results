@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+*.iml
+*.xml
+.idea/*
+.idea
+old-outputs
+old-outputs/*
+*.py
+/pyproject.toml
+/uv.lock
